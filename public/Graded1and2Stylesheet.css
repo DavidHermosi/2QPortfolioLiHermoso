@@ -25,3 +25,9 @@ img , iframe {
             margin-right: auto;
             float: center;
         }
+.center {
+            text-align: center;
+            margin: 0 auto;
+            font-weight: bold;
+        }
+        
