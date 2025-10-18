@@ -4,18 +4,24 @@
             padding: 20px;
             background-color: #7b1113;
         }
-        table {
+table {
             width: 50%;
             border-collapse: collapse;
             text-align: center;
         }
-        p, a, h1, h3, h4, th, td, caption {
+p, a, h1, h3, h4, th, td, caption {
             color : white;
         }
-        .bbh-sans-bogle-regular {
+.bbh-sans-bogle-regular {
             font-family: "BBH Sans Bogle", sans-serif;
             font-weight: 400;
             font-style: normal;
             text-align: center;
             font-size: 100px;
+        }
+img , iframe {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: center;
         }
