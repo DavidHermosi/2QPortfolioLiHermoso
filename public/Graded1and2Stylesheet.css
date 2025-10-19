@@ -9,7 +9,7 @@ table {
             border-collapse: collapse;
             text-align: center;
         }
-p, a, h1, h3, h4, th, td, caption {
+p, a, h1, h2, h3, h4, th, td, caption {
             color : white;
         }
 .bbh-sans-bogle-regular {
