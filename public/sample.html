@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>CSS Selectors Demo</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./sample.css">
 <style>
   *{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,11 +10,15 @@
     height: auto;
     padding: auto;
     border: 1px solid black;
-    ;  }
+    box-sizing: border-box;
+     }
 
   body {
     background-color: #7b1113;
     background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
   }
 
@@ -26,8 +30,6 @@
   }
 
   #main-title {
-    font-size: 36px;
-    font-weight: bold;
     text-transform: uppercase;
     word-spacing: 10px;
     letter-spacing: -3px;
@@ -62,10 +64,11 @@ float: left;
     list-style-type: none;
     clear: left;
 }
-a[type="_blank"] {
-
+a[target="_blank"] {
+    color:aquamarine;
   }
-  a[href="internal-page"] {
+  a[href="/internal-page"] {
+    color: pink;
   }
     a:hover {
         color: red;
